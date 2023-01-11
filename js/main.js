@@ -28,10 +28,11 @@ $(document).ready(function(){
     $('.play-btn').magnificPopup({
         type: 'iframe',
         mainClass: 'mfp-fade',
-        removalDelay: 160,
         preloader: false,
         fixedContentPos: false
     });
+    
+ 
 
 
   // Initiate superfish on nav menu
@@ -39,7 +40,7 @@ $(document).ready(function(){
     animation: {
       opacity: 'show'
     },
-    speed: 400
+    speed: 100
   });
 
   // Mobile Navigation
@@ -255,6 +256,8 @@ $(document).ready(function(){
         }
     }, 1000);
 
-
+   
+    
 
  });
+ 
