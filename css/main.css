@@ -268,7 +268,7 @@ h1,.h1{font-size:36px}h2,.h2{font-size:30px}h3,.h3{font-size:24px}h4,.h4{font-si
 .callaction-area{
     background:url(../img/mace.jpg) center;background-size:cover;
     text-align:center;
-    color:#fff
+    color:#fff;
 }
 .callaction-area p{padding:20px 0}.callaction-area .overlay-bg{background-color:rgba(4,9,30,0.75)}.callaction-btn{background-color:#8ab92d;color:#fff;border:1px solid transparent;padding:10px 40px;font-size:14px;font-weight:300;-webkit-transition:all 0.3s ease 0s;-moz-transition:all 0.3s ease 0s;-o-transition:all 0.3s ease 0s;transition:all 0.3s ease 0s}.callaction-btn:hover{background-color:transparent;border-color:#8ab92d;color:#8ab92d}
 .footer-area
