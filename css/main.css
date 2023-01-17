@@ -69,6 +69,32 @@ h1,.h1{font-size:36px}h2,.h2{font-size:30px}h3,.h3{font-size:24px}h4,.h4{font-si
     font-weight:700;
     font-size:50px;
 }
+.banner-content h6{
+  font-size: 20px;
+  color:#ffffff;
+  padding-top: 10px;
+  letter-spacing:3;
+  font-weight:400
+}
+
+#timer{
+  font-size:60px;
+  font-weight:600;
+  padding-top: 50px;
+  
+}#timer span{
+  font-size:35px;
+  font-weight:200;
+  margin-right:60px
+}
+@media (max-width: 736px)
+{
+  #timer span{font-size:12px}
+  #timer{
+      font-size: 30px;
+  }
+}
+
 @media (max-width: 991.98px){
     .banner-content h1{
         font-size:36px
@@ -81,14 +107,24 @@ h1,.h1{font-size:36px}h2,.h2{font-size:30px}h3,.h3{font-size:24px}h4,.h4{font-si
     .banner-content h1{font-size:45px}
 }
 @media (max-width: 414px){
-    .banner-content h1{font-size:32px}
-}
-.banner-content h6{
-    font-size: 20px;
-    color:#ffffff;
-    padding-top: 10px;
-    letter-spacing:3;
-    font-weight:400
+    .banner-content h1{
+      font-size:50px;
+    }
+    .banner-content h6{
+      font-size: 15px;
+      margin-right: 26px;
+      
+    }
+    .banner-content{
+      padding-top:200px ;
+    }
+    #timer{
+      font-size: 40px;
+    }
+    #timer span{
+      font-size: 20px;
+      margin-right: 20px;
+    }
 }
 @media (max-width: 1280px){
     .banner-content br{
@@ -108,23 +144,7 @@ h1,.h1{font-size:36px}h2,.h2{font-size:30px}h3,.h3{font-size:24px}h4,.h4{font-si
 }
 
 .primary-btn{background:#fff;border:1px solid transparent;color:#222;padding-left:40px;padding-right:40px;border-radius:50px}.primary-btn:hover{border:1px solid #fff;background:transparent;color:#fff}.start-in{display:inline-flex;background-color:#8ab92d;color:#fff;padding:5px 30px;margin-right:20px;margin-bottom:20px;font-size:14px;text-transform:uppercase}
-#timer{
-    font-size:60px;
-    font-weight:600;
-    padding-top: 50px;
-    
-}#timer span{
-    font-size:35px;
-    font-weight:200;
-    margin-right:60px
-}
-@media (max-width: 736px)
-{
-    #timer span{font-size:12px}
-    #timer{
-        font-size: 30px;
-    }
-}
+
 .home-video-area{
     background-color:#f9f9ff
 }
@@ -281,7 +301,7 @@ h6{color:rgb(81, 255, 0);margin-bottom:25px;font-size:18px;font-weight:600}
     text-align:center;
     color:#fff
 }
-.callaction-areaz p{padding:20px 0}.callaction-areaz .overlay-bg{background-color:rgba(4,9,30,0.75)}.callaction-btn{background-color:#8ab92d;color:#fff;border:1px solid transparent;padding:10px 40px;font-size:14px;font-weight:300;-webkit-transition:all 0.3s ease 0s;-moz-transition:all 0.3s ease 0s;-o-transition:all 0.3s ease 0s;transition:all 0.3s ease 0s}.callaction-btn:hover{background-color:transparent;border-color:#8ab92d;color:#8ab92d}
+.callaction-areaz p{padding:20px 0}.callaction-areaz .overlay-bg{background-color:rgba(4,9,30,0.75)}.callaction-btn{background-color:#8ab92d;color:#fff;border:1px solid transparent;padding:10px 40px;font-size:14px;font-weight:300;-webkit-transition:all 0.1s ease 0s;-moz-transition:all 0.1s ease 0s;-o-transition:all 0.1s ease 0s;transition:all 0.1s ease 0s}.callaction-btn:hover{background-color:transparent;border-color:#8ab92d;color:#8ab92d}
 .footer-area
 {padding-top:100px;background-color:#34343480}
 h6{color:rgb(81, 255, 0);margin-bottom:25px;font-size:18px;font-weight:600}
@@ -459,7 +479,7 @@ courses
   justify-content: center;
   align-items: center;
   align-content: center;
-  visibility: hidden;
+  opacity: 0;
   transition: 0.15ms;
   transform: translateY(-70px);
   }
@@ -475,7 +495,7 @@ courses
 }  
 #courses .item:hover .down-content{
   transition: all 0.2s ease-in-out;
-  visibility: visible;
+  opacity: 100;
   }  
   .our-courses .item .down-content h4 {
     padding: 25px;
