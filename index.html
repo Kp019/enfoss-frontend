@@ -15,11 +15,14 @@
 		<meta charset="UTF-8">
 		<!-- Site Title -->
 		<title>enFOSS</title>
+		
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
 			CSS
 			============================================= -->
+		
+			<link rel="stylesheet" href="./css/timeline.scss">
 			<link rel="stylesheet" href="css/theme/pages.css">
 			<link rel="stylesheet" href="css/linearicons.css">
 			<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -54,14 +57,15 @@
 
 			<!-- start banner Area -->
 			<section class="banner-area relative" id="home">
-				<!--<video autoplay muted loop id="myVideo">
-      				<source class="bg-video" src="\./img/enfoss.mp4" type="video/mp4">
-    			</video>-->
-
 				<div class="overlay overlay-bg"></div>
+				<video autoplay muted loop id="myVideo">
+      				<source class="bg-video" src="./img/0000-0150.mp4" type="video/mp4">
+    			</video>
+
+				
 				<div class="container">
 					<div class="row fullscreen">
-						<div class="banner-content col-lg-9 col-md-12">
+						<div class="banner-content">
 							
 							<h1 class="tlt">
 								ENFOSS	
@@ -84,27 +88,19 @@
 			<!-- Start home-video Area -->
 			<section class="home-video-area">
 				<div class="container-fluid">
-					<div class="row justify-content-end align-items-center">
-						<div class="col-lg-4 no-padding about-right">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-lg-8 about">
 							<h1>About enFOSS</h1>
-							<p>enFOSS is a national level FOSS Summit curated carefully to help anyone in the tech world to delve into the FOSS Universe. The three-day event is crafted with emphasis on creating a unique perspective on the advantage and superiority of an open development process wired by collaboration. enFOSS is crafted with an ulterior motive of FOSStering the next-gen tech advancements. We believe this can be achieved by creating a symposium of FOSS initiatives in Kerala that can help foster students and professionals in the idea of open source contribution.
+							<p class="about-content">enFOSS is a national level FOSS Summit curated carefully to help anyone in the tech world to delve into the FOSS Universe. The three-day event is crafted with emphasis on creating a unique perspective on the advantage and superiority of an open development process wired by collaboration. enFOSS is crafted with an ulterior motive of FOSStering the next-gen tech advancements. We believe this can be achieved by creating a symposium of FOSS initiatives in Kerala that can help foster students and professionals in the idea of open source contribution.
 							</p>
-						</div>
-						<section class="video-area col-lg-6 no-padding">
-							<div class="overlay overlay-bg"></div>
-							<div class="containers">
-								<div class="video-content">
-									<img class="img-fluid" src="img/about1.jpg" alt="">
-								</div>
-							</div>
-						</section>											
+						</div>	
 					</div>
 				</div>	
 			</section>
 			<!-- End home-aboutus Area -->
 
 
-			<!-- Start home-aboutus Area -->
+			<!-- Start home-aboutus Area 
 			<section class="home-aboutus-area">
 				<div class="container-fluid">
 					<div class="row align-items-center">
@@ -122,7 +118,7 @@
 				</div>	
 			</section>
 			<!-- End home-aboutus Area -->
-			<section class="callaction-area relative section-gap pb-5 mb-5">
+			<section class="callaction-area relative section-gap ">
 				<div class="overlay overlay-bg"></div>
 				<div class="container">
 					<div class="row justify-content-center">
@@ -172,8 +168,8 @@
 			<!-- End video-sec Area -->
 
 			
-
-			<section class="our-courses mt-5 pt-5" id="courses">
+			<div class="cardd">
+			<section class="our-courses" id="courses">
 				<div class="container">
 				  <div class="row">
 					<div class="col-lg-12">
@@ -288,7 +284,9 @@
 				  </div>
 				</div>
 			  </section>
+			</div>
 			
+			<div class="cards">
 			  <section id="team" class="team">
 				<div class="container">
 		  
@@ -398,7 +396,8 @@
 		  
 				</div>
 			  </section>
-			<!-- Start schedule Area -->
+			</div>
+			<!-- Start schedule Area 
 			<section class="schedule-area pb-100" id="schedule">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
@@ -480,6 +479,8 @@
 			</section>
 			<!-- End schedule Area -->		
 
+
+
 			<!-- Start price Area -->
 			<section class="price-area section-gap">
 				<div class="container">
@@ -544,6 +545,7 @@
 								<a class="price-btn text-uppercase" href="#">Buy Now</a>
 							</div>
 						</div>																		
+					</div>
 					</div>
 				</div>	
 			</section>
