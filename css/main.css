@@ -832,7 +832,7 @@ courses
     position: fixed;
     right: 0;
     bottom: 0;
-    height: 100vh;
+    width: 100%;
     z-index: -1;
     opacity: 100%;
   }
@@ -847,7 +847,7 @@ courses
     position: fixed;
     right: 0;
     bottom: 0;
-    height: 100vh;
+    width: 100%;
     z-index: -1;
     opacity: 100%;
   }
@@ -864,14 +864,16 @@ courses
 
 @media (max-width: 415px){
   #myvideo .bg-video{
-    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
     
   }
   .banner-content{
     height: 0;
   }
   .banner-area{
-    height: 100vh;
+    height: 80vh;
     padding-bottom: 0;
   }
 }
