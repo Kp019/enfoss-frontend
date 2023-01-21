@@ -28,7 +28,7 @@ $(document).ready(function(){
     $('.play-btn').magnificPopup({
         type: 'iframe',
         mainClass: 'mfp-fade',
-        preloader: false,
+        preloader: true,
         fixedContentPos: false
     });
     
