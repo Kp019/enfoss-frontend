@@ -862,6 +862,22 @@ courses
 
 }
 
+@media (max-width: 500px){
+  #myvideo .bg-video{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .banner-content{
+    height: 0;
+  }
+  .banner-area{
+    height: 90vh;
+    padding-bottom: 0;
+  }
+}
+
 @media (max-width: 415px){
   #myvideo .bg-video{
     width: 100%;
@@ -873,7 +889,7 @@ courses
     height: 0;
   }
   .banner-area{
-    height: 80vh;
+    height: 100vh;
     padding-bottom: 0;
   }
 }
