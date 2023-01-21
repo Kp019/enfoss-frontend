@@ -853,10 +853,10 @@ courses
   }
   .banner-content{
     height: 0;
-    padding-top: 180px;
+    padding-top: 160px;
   }
   .banner-area{
-    height: 100vh;
+    height: 80vh;
     padding-bottom: 0;
   }
 
@@ -871,9 +871,10 @@ courses
   }
   .banner-content{
     height: 0;
+    padding-top: 160px;
   }
   .banner-area{
-    height: 90vh;
+    height: 80vh;
     padding-bottom: 0;
   }
 }
@@ -887,9 +888,10 @@ courses
   }
   .banner-content{
     height: 0;
+    padding-top: 140px;
   }
   .banner-area{
-    height: 100vh;
+    height: 70vh;
     padding-bottom: 0;
   }
 }
