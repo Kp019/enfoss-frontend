@@ -874,43 +874,64 @@ courses
 
 @media (max-width:1200px){
   .banner-content{
-    height: 100vh;
+    width: 100%;
+      padding: 0;
+      margin: 0;
   }
   #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
     width: 100%;
-    z-index: -1;
-    opacity: 100%;
+      padding: 0;
+      margin: 0;
   }
   .banner-area{
-    min-height: auto;
-    padding-bottom: 0;
+    width: 100%;
+      padding: 0;
+      margin: 0;
   }
 }
 
-
+@media (max-width: 912px){
+  #myvideo .bg-video{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .banner-content{
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 170px;
+    padding-bottom: 100px;
+  }
+  .banner-area{
+    min-height: auto;
+  }
+}
 
 @media (max-width: 768px) {
     #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: -1;
-    opacity: 100%;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      
   }
   .banner-content{
-    height:100vh;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 170px;
+    padding-bottom: 100px;
     
   }
   .banner-area{
     min-height: auto;
-    padding-bottom: 0;
   }
 
 }
+
+
+
 @media (max-width: 600px){
   #myvideo .bg-video{
     width: 100%;
@@ -919,28 +940,14 @@ courses
     
   }
   .banner-content{
-    height: 100vh;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
   .banner-area{
-    height: 70vh;
-    padding-bottom: 0;
-  }
-}
-
-
-@media (max-width: 500px){
-  #myvideo .bg-video{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    
-  }
-  .banner-content{
-    height: 100vh;
-  }
-  .banner-area{
-    min-height: auto;
-    padding-bottom: 0;
+    height: auto;
   }
 }
 
@@ -953,11 +960,11 @@ courses
   }
   .banner-content{
     height : auto;
-    padding-top: 100px;
-    padding-bottom: 40px;
+    padding-top: 120px;
+    padding-bottom: 60px;
   }
   .banner-area{
-    height: auto;
+    min-height: auto;
    
   }
 }
@@ -971,11 +978,11 @@ courses
   }
   .banner-content{
     height : auto;
-    padding-top: 100px;
-    padding-bottom: 20px;
+    padding-top: 120px;
+    padding-bottom: 40px;
   }
   .banner-area{
-    height: auto;
+    min-height: auto;
   }
 }
 
@@ -989,7 +996,7 @@ courses
   }
   .banner-content{
     height : auto;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 20px;
   }
   .banner-area{
