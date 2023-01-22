@@ -92,12 +92,12 @@ h1,.h1{font-size:36px}h2,.h2{font-size:30px}h3,.h3{font-size:24px}h4,.h4{font-si
 .section-gap{padding:120px 0}.section-title{padding-bottom:30px}.section-title h2{margin-bottom:20px}.section-title p{font-size:16px;margin-bottom:0}@media (max-width: 991.98px){.section-title p br{display:none}}.primary-btn{background-color:#8ab92d;line-height:42px;padding-left:30px;padding-right:60px;border-radius:25px;border:none;color:#fff;display:inline-block;font-weight:500;position:relative;-webkit-transition:all 0.3s ease 0s;-moz-transition:all 0.3s ease 0s;-o-transition:all 0.3s ease 0s;transition:all 0.3s ease 0s;cursor:pointer;text-transform:uppercase;position:relative}.primary-btn:focus{outline:none}.primary-btn span{color:#fff;position:absolute;top:50%;transform:translateY(-60%);right:30px;-webkit-transition:all 0.3s ease 0s;-moz-transition:all 0.3s ease 0s;-o-transition:all 0.3s ease 0s;transition:all 0.3s ease 0s}.primary-btn:hover{color:#fff}.primary-btn:hover span{color:#fff;right:20px}.primary-btn.white{border:1px solid #fff;color:#fff}.primary-btn.white span{color:#fff}.primary-btn.white:hover{background:#fff;color:#8ab92d}.primary-btn.white:hover span{color:#8ab92d}.overlay{position:absolute;left:0;right:0;top:0;bottom:0}
 .banner-area{
     background-color: rgba(0, 0, 0, 0.752);
-    padding-bottom: 100px;
+    min-height: 100vh;
 }
 
 .banner-area .overlay-bg{
     background:url(../img/landingpage.png) center;
-    background-size:cover
+    background-size:cover;
   }
 
 
@@ -105,9 +105,11 @@ h1,.h1{font-size:36px}h2,.h2{font-size:30px}h3,.h3{font-size:24px}h4,.h4{font-si
   background-color: #191919;
 }
 .banner-content{
-  padding-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align:center;
-  position: relative;
+  height: 100vh;
 }
 .banner-content h1{
     font-size:100px;
@@ -869,8 +871,7 @@ courses
 
 @media (max-width:1200px){
   .banner-content{
-    height: 0;
-    padding-top: 180px;
+    height: 100vh;
   }
   #myVideo {
     position: fixed;
@@ -881,7 +882,7 @@ courses
     opacity: 100%;
   }
   .banner-area{
-    height: 100vh;
+    min-height: auto;
     padding-bottom: 0;
   }
 }
@@ -898,11 +899,11 @@ courses
     opacity: 100%;
   }
   .banner-content{
-    height: 0;
-    padding-top: 160px;
+    height:100vh;
+    
   }
   .banner-area{
-    height: 70vh;
+    min-height: auto;
     padding-bottom: 0;
   }
 
@@ -915,8 +916,7 @@ courses
     
   }
   .banner-content{
-    height: 0;
-    padding-top: 180px;
+    height: 100vh;
   }
   .banner-area{
     height: 70vh;
@@ -933,16 +933,15 @@ courses
     
   }
   .banner-content{
-    height: 0;
-    padding-top: 160px;
+    height: 100vh;
   }
   .banner-area{
-    height: 70vh;
+    min-height: auto;
     padding-bottom: 0;
   }
 }
 
-@media (max-width: 415px){
+@media (max-width: 425px){
   #myvideo .bg-video{
     width: 100%;
     padding: 0;
@@ -950,14 +949,33 @@ courses
     
   }
   .banner-content{
-    height: 0;
-    padding-top: 140px;
+    height : auto;
+    padding-top: 100px;
+    padding-bottom: 40px;
   }
   .banner-area{
-    height: 70vh;
-    padding-bottom: 0;
+    height: auto;
+   
   }
 }
+
+@media (max-width: 375px){
+  #myvideo .bg-video{
+    width: auto;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .banner-content{
+    height : auto;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  .banner-area{
+    height: auto;
+  }
+}
+
 
 
 .day1 h1{
