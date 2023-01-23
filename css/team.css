@@ -147,6 +147,30 @@ h1,.h1{font-size:36px}h2,.h2{font-size:30px}h3,.h3{font-size:24px}h4,.h4{font-si
             font-size: 25px;
             font-weight: 400;
           }
+
+          @media (max-width:500px){
+            .spk-section-title{
+              padding-bottom: 20px;
+              padding-left: 25px;
+            }
+
+            .spk-section-title h2{
+              text-align: left;
+              font-size: 40px;
+            }
+          }
+          @media (max-width:350px){
+            .spk-section-title{
+              padding-bottom: 20px;
+              padding-left: 20px;
+            }
+            
+            .spk-section-title h2{
+              text-align: left;
+              font-size: 35px;
+            }
+          }
+      
       
         
 
