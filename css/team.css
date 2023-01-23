@@ -133,6 +133,16 @@ h1,.h1{font-size:36px}h2,.h2{font-size:30px}h3,.h3{font-size:24px}h4,.h4{font-si
             text-transform: uppercase;
             color: #cacaca;
           }
+
+          .spk-section-title h3 {
+            font-size: 38px;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #cacaca;
+          }
+
+
+
           .spk-section-title p{
             font-size: 25px;
             font-weight: 400;
@@ -236,6 +246,42 @@ h1,.h1{font-size:36px}h2,.h2{font-size:30px}h3,.h3{font-size:24px}h4,.h4{font-si
     padding-bottom: 50px;
     color: #fff;
 } 
+
+.schedule-f{
+  background-color: rgba(106, 106, 106, 0.314);
+}
+
+
+
+
+@media (max-width: 768px){.table-wrap{overflow-x:scroll}}
+.table{
+    text-align:center;
+}
+.thead-light{
+    background-color: rgba(255, 255, 255, 0.432);
+}
+#table th{
+    background-color: rgba(255, 255, 255, 0.233);
+}
+.table th{
+    font-weight:300;
+}
+.table .name{
+    padding-top:12px
+}
+.table tr{
+    -webkit-transition:all 0.3s ease 0s;
+    -moz-transition:all 0.3s ease 0s;
+    -o-transition:all 0.3s ease 0s;
+    transition:all 0.3s ease 0s
+}
+.table tr:hover{background-color:#8ab92d;color:rgb(0, 0, 0)}
+.thead-light .head{
+    
+    text-transform:uppercase;
+    font-weight:700;
+    color:rgb(0, 0, 0) !important}
 
 
 .footer-area
