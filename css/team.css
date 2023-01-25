@@ -271,6 +271,37 @@ h1,.h1{font-size:36px}h2,.h2{font-size:30px}h3,.h3{font-size:24px}h4,.h4{font-si
     color: #fff;
 } 
 
+.grps{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.member1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+@media (min-width:1200px){
+  .member1{
+    width: 100%;
+    height: auto;
+  }
+  
+}
+
+@media (max-width:1200px){
+  .member{
+    scale: 0.75;
+  }
+  .grpsp {
+    font-size: 30px;
+  }
+}
+
 .schedule-f{
   background-color: rgba(106, 106, 106, 0.314);
 }
